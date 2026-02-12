@@ -1,9 +1,11 @@
 ## Redux
 [Reudx Essentials](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 
+[Redux Core Concepts Note](https://github.com/jo-muuuuuu/penny-wave-notes/blob/main/redux.md)
+
 [Reudx Fundamentals](https://redux.js.org/tutorials/fundamentals/part-1-overview)
 
-Note that this tutorial intentionally shows older-style Redux logic patterns that require more code than the "modern Redux" patterns with Redux Toolkit we teach as the right approach for building apps with Redux today, in order to explain the principles and concepts behind Redux. It's not meant to be a production-ready project.
+Note that this tutorial (Redux Fundamentals) intentionally shows older-style Redux logic patterns that require more code than the "modern Redux" patterns with Redux Toolkit we teach as the right approach for building apps with Redux today, in order to explain the principles and concepts behind Redux. It's not meant to be a production-ready project.
 
 ### What is Redux?
 Redux is really:
@@ -65,7 +67,7 @@ Vite with Redux+TS template: `npx degit reduxjs/redux-templates/packages/vite-te
 `npm install react-redux` (for React bindings)
 
 ## What's Included
-Redux Toolkit includes these APIs:
+RTK includes these APIs:
 
 `configureStore()`: wraps `createStore` to provide simplified configuration options and good defaults. It can automatically combine your slice reducers, adds whatever Redux middleware you supply, includes `redux-thunk` by default, and enables use of the Redux DevTools Extension.
 
@@ -82,3 +84,10 @@ Redux Toolkit includes these APIs:
 `createEntityAdapter`: generates a set of reusable reducers and selectors to manage normalized data in the store
 
 The `createSelector` utility from the `Reselect` library, re-exported for ease of use.
+
+## RTK Quick Start
+[Quick Start](https://redux-toolkit.js.org/tutorials/quick-start)
+
+[TS Quick Start](https://redux-toolkit.js.org/tutorials/typescript)
+
+[RTK Query Quick Start](https://redux-toolkit.js.org/tutorials/rtk-query)
